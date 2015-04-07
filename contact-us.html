@@ -35,11 +35,6 @@ function clearText(field)
 
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/fadeSlideShow.js"></script>
-<script type="text/javascript">
-jQuery(document).ready(function(){
-	jQuery('#slideshow').fadeSlideShow();
-});
-</script>
 
 <style type="text/css">
 <!--
@@ -55,12 +50,12 @@ jQuery(document).ready(function(){
     
     <div id="menu">
         <ul>
-            <li><a href="index.html" class="current">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="about-us.html">About Us</a></li>
             <li><a href="services.html">Services</a></li>
             <li><a href="partners.html">Partners</a></li>
 			<li><a href="career.html">Career</a></li>
-            <li><a href="contact-us.html" class="last">Contact Us</a></li>
+            <li><a href="contact-us.html" class="current">Contact Us</a></li>
         </ul>    	
     </div> <!-- end of menu -->
 </div> <!-- end of menu wrapper -->
@@ -68,23 +63,18 @@ jQuery(document).ready(function(){
 <div id="content_wrapper">
 
     <div id="content">
-<div id="slideshowWrapper">
+<!--<div id="slideshowWrapper">
   <ul id="slideshow" style="width: 900px; height: 260px; position: relative; overflow: hidden; margin: 0px;">
-    <li style="position: absolute; width: 640px; height: 260px; display: block;"><img src="images/africhoice_banner.png" width="900" height="260" border="0" alt="" /></li>
-	<li style="position: absolute; width: 640px; height: 260px; display: block;"><img src="images/slide1.jpg" width="900" height="260" border="0" alt="" /></li>
-	<li style="position: absolute; width: 640px; height: 260px; display: block;"><img src="images/slide2.jpg" width="900" height="260" border="0" alt="" /></li>
- 	<li style="position: absolute; width: 640px; height: 260px; display: block;"><img src="images/slide3.jpg" width="900" height="260" border="0" alt="" /></li>
-    <!-- This is the last image in the slide show -->
+    <li style="position: absolute; width: 900px; height: 260px; display: block;"><img src="images/africhoice_banner.png" width="900" height="260" border="0" alt="" /></li>
+	<li style="position: absolute; width: 900px; height: 260px; display: block;"><img src="images/slide1.jpg" width="900" height="260" border="0" alt="" /></li>
+	<li style="position: absolute; width: 900px; height: 260px; display: block;"><img src="images/slide2.jpg" width="900" height="260" border="0" alt="" /></li>
+ 	<li style="position: absolute; width: 900px; height: 260px; display: block;"><img src="images/slide3.jpg" width="900" height="260" border="0" alt="" /></li>
     </ul>
-<!--   
-  <!--<a href="#" id="fssPrev">&lt; Prev</a><a href="#" id="fssNext">Next &gt;</a><a href="#" id="fssPlayPause">Play</a>-->
-  <!--<ul id="fssList"><li class="fssLi0 fssActive"><a href="#">1</a></li><li class="fssLi1"><a href="#">2</a></li><li class="fssLi2"><a href="#">3</a></li><li class="fssLi3"><a href="#">4</a></li></ul>-->
+</div>  --> 
+    
+<div>
+<img src="images/africhoice_banner.png" width="900" height="260" border="0" alt="" />
 </div>
-    
-    
-    
-    
-    
     
     	
         
@@ -93,7 +83,7 @@ jQuery(document).ready(function(){
        	<div class="left_home">
             	<h2 class="left_homecont">Give us a feedback</h2>
                 <div class="contact_form">
-                    <form action="" method="post">
+                    <form action="mailto:africhoicesoluions@yahoo.com" method="post">
                     	<input name="fullname" type="text"  size="45" maxlength="25" placeholder="Fullname" /><br />
                         <input name="email" type="text"  size="45" maxlength="40" placeholder="Email" /><br />
                     	<input name="phoneno" type="text" size="45" maxlength="20" placeholder="phone" /><br />
@@ -112,11 +102,10 @@ jQuery(document).ready(function(){
         <div class="cleaner"></div>
 
 </div>
-<div class="cleaner"></div>
             
         </div> <!-- end of content panel -->
         
-        <div class="cleaner"></div>
+
     </div> <!-- end of content -->
     
 </div> <!-- end of content wrapper -->
