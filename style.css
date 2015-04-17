@@ -27,7 +27,24 @@ ul.core_lists{
 ul.core_lists li{
 	margin-bottom: 20px;
 }
-
+.bootcamp {
+	color: white;
+	border: 1px solid #3b5998;
+	width: 120px;
+	height: 38px;
+	background: #3b5998;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.bootcamp:hover {
+	color: white;
+	order: 1px solid #3b5998;);
+	width: 120px;
+	height: 38px;
+	background: #0066CC;
+	border-radius: 10px;
+	cursor: pointer;
+}
 
 
 h2.no-underline,
