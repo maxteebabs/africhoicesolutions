@@ -566,3 +566,25 @@ ul#slideshow{list-style:none;border:1px solid #999;padding:2px;margin:auto;margi
 	color: #5B73A3;
 	margin-bottom: 10px;
 }
+.red {
+	color: red;
+}
+table#diet {
+	margin: 10px auto;
+	width: 100%;
+	display: block;
+	border-radius: 5px;
+	border:1px solid #f1f1f1;
+	text-align: left;
+}
+table#diet td {
+	border: 1px solid #f1f1f1;
+	padding: 5px;
+}
+
+table#diet tr.even {
+	background-color: #FFF;
+}
+table#diet tr.odd {
+	background-color: #f1f1f1;
+}
