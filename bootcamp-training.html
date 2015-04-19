@@ -41,18 +41,29 @@ jQuery(document).ready(function(){
 
 </head>
 <body>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
 <div id="header">
 	<div class="logo"><img src="images/africhoicelogo.png" alt="africhoice solutions logo" width="207" height="45" /></div>
 </div>
 <div id="menu_wrapper">
 	<div id="menu">
 		<ul>
-			<li><a href="index.html" class="current">Home</a></li>
+			<li><a href="index.html">Home</a></li>
 			<li><a href="about-us.html">About Us</a></li>
 			<li><a href="services.html">Services</a></li>
 			<li><a href="partners.html">Partners</a></li>
 			<li><a href="career.html">Career</a></li>
-			<li><a href="bootcamp-training.html">Bootcamp</a></li>
+			<li><a href="bootcamp-training.html" class="current">Bootcamp</a></li>
 			<li><a href="contact-us.html" class="last">Contact Us</a></li>
 		</ul>
 	</div>
@@ -71,21 +82,27 @@ jQuery(document).ready(function(){
 	  <div class="homecontent">
        	<div class="left_home">
 			 <h2 class="left_homecont">Bootcamp Training</h2>
-				<p>Our bootcamp training is a 6-weekends full time class designed to equip you with skills to become a software developer/ entry-level programmer. Its an intensive training so be prepared for alot of coding and hardwork. The aim of this training is to get you to a point where you can boast of your own "App Portfolio".
-				
-				 We will equip you with the knowledge and skill you need to become a full-fledge web/mobile developer.</p>
-
+				<p>At Africhoice Solutions, we believe that world-class empowerment is key to successful development. Our focus is to discover young talents and equip them with skills to become successful developers in the industry. </p>
+				<p>Our bootcamp training is a 6-weekends full-time program designed to equip you with skills to become an entry-level developer. Its an intensive training that exposes you to hands-on pratice exercises. Therefore, be prepared for alot of coding and hardwork. </p>
+				<p>The aim of this bootcamp training  is to enable you achieve so much in less time. It will also  get you to a point where you can boast of your own "App Portfolio".
+					
+					We will equip you with the knowledge/skill and provide you with a conducive learning environment with internet access you need to become a full-fledge web/mobile developer.</p>
+				<p>Our approach has proven to be very effective with numerous success stories.Register now and be part of this success story.</p>
+				<p>&nbsp;</p>
 				<h2 class="head_color">Collaborative Environment</h2>
 				<p>
 With expert facilitators, research, and classmates, there’s always someone to get you unstuck. Our program simulates a real work environment where people problem-solve as a team.</p>
-				<p>ATTENDEES ARE STRONGLY ADVISED TO COME WITH THEIR OWN LAPTOPS</p>
+				<p><strong>ATTENDEES ARE STRONGLY ADVISED TO COME WITH THEIR OWN LAPTOPS (Wifi enabled)</strong></p>
 				<p>Training Fee: N60,000</p>
 				<p>Date: May 2nd - June 6th, 2015</p>
 				<p>Time: 10AM - 5PM</p>
+				<p>Venue: Plot CL2, SAMAK HALLS, Ikosi Road Behind tantalizers, Oregun, Lagos, Nigeria</p>
 				<a href="ict-training.html">
 				<button class="bootcamp">Apply Now</button>
 				</a>	
-				
+				<br /><br/>
+				<p>For more equiries, You can reach us on 0806 043 0349, 0807 792 2440 or via BBM 5340AB4B</p>
+				<br />
 				<h2 class="head_color" style="margin: 20px auto; text-align:center;">Diet 1 </h2>
 				
 				<table id="diet">
@@ -118,9 +135,10 @@ With expert facilitators, research, and classmates, there’s always someone to 
 					</tr>
 					<tr class="odd">
 						<td><strong>WEEK 5:</strong></td>
-						<td><strong>CREATING A FEATURE RICH APPLICATION</strong> <br />
-						Coding your applications, Publishing your app to the google play store,	Exploring the native features of mobile devices: accelerometer, GPS, camera, flashlight, media, network, notification, storage etc.
-						 <span class="red">	Designing the task reminder application</span></td>
+						<td><p><strong>CREATING A FEATURE RICH APPLICATION</strong> <br />
+							Coding your applications, Publishing your app to the google play store,	Exploring the native features of mobile devices: accelerometer, GPS, camera, flashlight, media, network, notification, storage etc.
+							</p>
+							<p><span class="red">	Designing the task reminder application</span></p></td>
 					</tr>
 					<tr class="even">
 						<td><strong>WEEK 6:</strong></td>
@@ -139,7 +157,12 @@ With expert facilitators, research, and classmates, there’s always someone to 
 				</div>
             
             <div class="right_home">
-            	<h2 class="left_homecont"> Products</h2>
+            	<h2 class="left_homecont">Connect with us</h2>
+				<div class="fb-like" data-href="https://www.facebook.com/africhoicesolutions" data-width="200px" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+				
+				
+				
+				<h2 class="left_homecont"> Products</h2>
 				<div class="products">
                 	<div class="product">
                     	
@@ -193,7 +216,7 @@ With expert facilitators, research, and classmates, there’s always someone to 
 			<div class="margin_bottom_10"></div>
 			<div id="followUs"> <span>Follow us</span>
 				<ul>
-					<li><a title="See the Africhoice group Facebook" target="_blank" href="http://facebook.com/africhoice"><img src="images/social/facebook.jpg" alt="facebook" /></a></li>
+					<li><a title="See the Africhoice group Facebook" target="_blank" href="http://facebook.com/africhoicesolutions"><img src="images/social/facebook.jpg" alt="facebook" /></a></li>
 					<li><a title="See the Africhoice group Google Plus" target="_blank" href="https://plus.google.com/africhoice"><img src="images/social/googleplus.jpg" alt="google+" /></a></li>
 					<li><a title="See the Africhoice group LinkedIn" target="_blank" href="http://www.linkedin.com/africhoice"><img src="images/social/linkedin.png" alt="linkedin" /></a></li>
 					<li><a title="See the Africhoice group Twitter" target="_blank" href="https://twitter.com/Africhoice"><img src="images/social/twitterlogo.png" alt="twitter" /></a></li>
